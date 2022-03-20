@@ -1,5 +1,7 @@
 # Corona-Virus-Tracker
 a Coronavirus tracker app built with Spring Boot and Java
+
+#Screenshot of the application
 ![demo](doc/demo-homepage.JPG)
 
 # Tools:
@@ -13,4 +15,6 @@ Java, SpringBoot, Spring Web, Maven, Themeleaf, Bootstrap, Javascript
 # Supported Features
 - can select entries shown in the page to optimize UI
 - can sort alphabatically or numerically on each column
+![sorting](doc/demo-sorting.JPG)
 - can search by keywords
+![keywords](doc/demo-keywordSearch.JPG)
