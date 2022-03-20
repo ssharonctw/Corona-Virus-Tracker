@@ -1,5 +1,6 @@
 # Corona-Virus-Tracker
 a Coronavirus tracker app built with Spring Boot and Java
+![demo](doc/demo-homepage.JPG)
 
 # Tools:
 Java, SpringBoot, Spring Web, Maven, Themeleaf, Bootstrap, Javascript
@@ -9,7 +10,7 @@ Java, SpringBoot, Spring Web, Maven, Themeleaf, Bootstrap, Javascript
 - built a Spring service with Java HTTP client that fetches global data from JHU database every hour 
 - utilized thymeleaf to construct the landing page and supported keywords filtering/ table sorting with Javascript Datatable library
 
-#Supported Features
+# Supported Features
 - can select entries shown in the page to optimize UI
 - can sort alphabatically or numerically on each column
 - can search by keywords
