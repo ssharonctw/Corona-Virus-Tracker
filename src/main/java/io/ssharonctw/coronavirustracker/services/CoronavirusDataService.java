@@ -13,6 +13,7 @@ import java.net.URI;
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
+import java.sql.SQLOutput;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -33,7 +34,7 @@ public class CoronavirusDataService {
     //@PostConstruct = run when the when the application starts  (a.k.a.  run when the class is constucted)
     //@Scheduled = run every first hour of every day (PostConstruct is not sufficient as it will only run the very first time)
     @PostConstruct
-    @Scheduled(cron = "* * 1 * * *")
+    @Scheduled(cron = "0 0 */1 * * *")
     public void fetchVirusData() throws IOException, InterruptedException {
         //the local list is created to avoid concurrency issues
         //so when other people are visiting the site while the list are refreshing,
@@ -52,6 +53,7 @@ public class CoronavirusDataService {
 
         //print out the response body
         //System.out.println(httpResponse.body());
+        System.out.println("data fetched");
 
         //now we need to parse the fetched data. Here we use a java library called commons csv
         //https://commons.apache.org/proper/commons-csv/user-guide.html
