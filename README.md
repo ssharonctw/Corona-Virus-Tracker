@@ -1,7 +1,7 @@
 # Corona-Virus-Tracker
 a Coronavirus tracker app built with Spring Boot and Java
 
-#Screenshot of the application
+# Screenshot of the application
 ![demo](doc/demo-homepage.JPG)
 
 # Tools:
