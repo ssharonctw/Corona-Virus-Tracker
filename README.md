@@ -1,5 +1,6 @@
 # Corona-Virus-Tracker
-a Coronavirus tracker app built with Spring Boot and Java
+a Coronavirus tracker app built with Spring Boot and Java.
+Demo deployed on Heroku. Check [here](https://corona-virus-tracker-spring.herokuapp.com/)
 
 # Screenshot of the application
 ![demo](doc/demo-homepage.JPG)
