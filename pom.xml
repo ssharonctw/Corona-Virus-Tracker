@@ -13,9 +13,9 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>coronavirus-tracker</name>
 	<description>tracker of coronavirus</description>
-<!--	<properties>-->
-<!--		<java.version>12</java.version>-->
-<!--	</properties>-->
+	<properties>
+		<java.version>12</java.version>
+	</properties>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
